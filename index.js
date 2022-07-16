@@ -20,4 +20,7 @@ const flagParser = () => {
         }
         return flagsObject;
 }
+
+console.log(flagParser());
+
 module.exports = flagParser;
