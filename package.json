@@ -1,0 +1,42 @@
+{
+  "name": "flagparser",
+  "version": "0.0.1",
+  "description": "We are building a feature-rich flag parser.",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/src/index.js",
+    "dev": "npx ts-node src/index.ts",
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "keywords": [
+    "flagparser",
+    "parse command line flags"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imabp/flagparser.git"
+  },
+  "engine": {
+    "node": ">=6.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imabp/flagparser/flagparser/issues"
+  },
+  "homepage": "https://github.com/imabp/flagparser/flagparser#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "gts": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.0.3"
+  }
+}
