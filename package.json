@@ -1,8 +1,8 @@
 {
   "name": "flagparser",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "We are building a feature-rich flag parser.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "start": "node build/src/index.js",
     "dev": "npx ts-node src/index.ts",
@@ -28,7 +28,6 @@
   "engine": {
     "node": ">=6.0.0"
   },
-  "author": "ntsagar9@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/imabp/flagparser/flagparser/issues"

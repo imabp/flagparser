@@ -1,3 +1,3 @@
 export interface FlagsObjectInterface {
-    [key: string]: string
+    [key: string]: any
 }
