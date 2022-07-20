@@ -14,7 +14,7 @@ npm install
 ### Build and run parser
 ```sh
 npm run build
-npm start -- -p hello -i world
+node build/src/index.js -p hello -i world
 ```
 
 `-p` and `-h` are flags.
@@ -33,7 +33,7 @@ To run the project locally.
 - Expected Output `{ '-exampleFlag': 'helloworld' }`
 
 ## Development commands
-- `npm run dev -- -exampleFlag helloworld` to run on local
+- `npx ts-node src/index.ts -exampleFlag helloworld` to run on local
 - `npm run watch` to continuously watch your code
 - `npm run lint` to check your code is clean from error & warnings
 - `npm run fix` to fix errors & warnings
